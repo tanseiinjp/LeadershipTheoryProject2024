@@ -70,3 +70,12 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# ignore largefile
+LeadershipTheoryGame2024/Library/PackageCache/com.unity.burst@1.7.3/.Runtime/hostlin/lld
+LeadershipTheoryGame2024/Library/PackageCache/com.unity.burst@1.7.3/.Runtime/hostmac/dsymutil
+LeadershipTheoryGame2024/Library/PackageCache/com.unity.burst@1.7.3/.Runtime/libburst-llvm-10.dylib
+LeadershipTheoryGame2024/Library/PackageCache/com.unity.burst@1.7.3/.Runtime/libburst-llvm-12.so
+LeadershipTheoryGame2024/Library/ArtifactDB
+LeadershipTheoryGame2024/Library/PackageCache/com.unity.burst@1.7.3/.Runtime/hostmac/lld
+LeadershipTheoryGame2024/Library/PackageCache/com.unity.burst@1.7.3/.Runtime/libburst-llvm-12.dylib
