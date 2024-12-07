@@ -450,6 +450,8 @@
 "Assets/Kiyoharu/KiyoharuTest.cs"
 "Assets/Script/Manager/AudioManager/AudioManager.cs"
 "Assets/Script/Manager/GameManagerScript/GameManager.cs"
+"Assets/Script/OptionSelection/OptionParent.cs"
+"Assets/Script/OptionSelection/StartSceneOption.cs"
 "Assets/Script/PlayerScript/MainPlayer.cs"
 -langversion:9.0
 /deterministic
