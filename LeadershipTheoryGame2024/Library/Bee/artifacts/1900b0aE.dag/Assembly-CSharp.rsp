@@ -447,10 +447,14 @@
 -analyzer:"F:/Unity/6000.0.26f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 -analyzer:"F:/Unity/6000.0.26f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
 "Assets/Kiyoharu/KiyoharuTest.cs"
+"Assets/Script/FoodScript/Fish_GetFood.cs"
 "Assets/Script/FoodScript/FoodStruct.cs"
 "Assets/Script/Manager/AudioManager/AudioManager.cs"
 "Assets/Script/Manager/GameManagerScript/GameManager.cs"
+"Assets/Script/OptionSelection/OptionParent.cs"
+"Assets/Script/OptionSelection/StartSceneOption.cs"
 "Assets/Script/PlayerScript/MainPlayer.cs"
+"Assets/Script/TheGameTool.cs"
 -langversion:9.0
 /deterministic
 /optimize+
