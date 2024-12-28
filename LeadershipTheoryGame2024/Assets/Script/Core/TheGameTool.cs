@@ -117,7 +117,7 @@ namespace Gamecore
         {
             childTrans.parent = parentTrans;
             childTrans.localPosition = Vector2.zero;
-            childTrans.localScale = Vector2.one;
+            //childTrans.localScale = Vector2.one;
         }
     }
 }

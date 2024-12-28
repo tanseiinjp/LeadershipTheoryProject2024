@@ -1,0 +1,8 @@
+foodName,ID,isCombine,isUseTool,isJG,isJBJ,isTG,image
+食物名称,食物ID,是否结合,是否使用工具,煎锅,搅拌机,汤锅,食物图片
+-1,-1,-1,-1,-1,-1,-1,-1
+Fish,1,1,2,2,2,2,-1
+HaiTai,2,1,2,2,2,2,-1
+OGoMe,3,2,1,2,2,1,-1
+Rice,4,1,2,2,2,2,-1
+SuShi,5,2,2,2,2,2,-1
