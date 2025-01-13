@@ -2,7 +2,7 @@ using UnityEngine;
 using System.Collections;
 using System;
 
-namespace Gamecore
+namespace GameCore
 {
     public class TheGameTool : MonoBehaviour
     {

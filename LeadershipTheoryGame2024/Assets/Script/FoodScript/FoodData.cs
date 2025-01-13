@@ -1,5 +1,5 @@
 using UnityEngine;
-using Gamecore;
+using GameCore;
 
 public class FoodData : MonoBehaviour
 {

@@ -1,5 +1,5 @@
 using UnityEngine;
-using Gamecore;
+using GameCore;
 public class GetFood : MonoBehaviour
 {
     public string food_Name;

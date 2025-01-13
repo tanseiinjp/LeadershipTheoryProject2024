@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Gamecore 
+namespace GameCore 
 {
     public struct CooklStruct
     {
