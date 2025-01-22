@@ -3,7 +3,11 @@ using System.Linq;
 using Unity.VisualScripting;
 using UnityEngine;
 
+<<<<<<< HEAD
 namespace Gamecore 
+=======
+namespace GameCore 
+>>>>>>> cb3efa79df9836acb2245610c26e1efe7545a44d
 {
     public class FoodAttributeTable //食物属性表，用于分配食物的Struct属性
     {

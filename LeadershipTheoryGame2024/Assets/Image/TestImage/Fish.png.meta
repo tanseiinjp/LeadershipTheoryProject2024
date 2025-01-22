@@ -122,6 +122,7 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+<<<<<<< HEAD
   - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
@@ -148,6 +149,8 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+=======
+>>>>>>> cb3efa79df9836acb2245610c26e1efe7545a44d
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -186,8 +189,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
+<<<<<<< HEAD
     nameFileIdTable:
       Fish_0: -1915776564401465818
+=======
+    nameFileIdTable: {}
+>>>>>>> cb3efa79df9836acb2245610c26e1efe7545a44d
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

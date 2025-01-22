@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using GameCore;
+using UnityEngine.UI;
 
 public class MainPlayer : MonoBehaviour
 {
@@ -11,6 +13,9 @@ public class MainPlayer : MonoBehaviour
     // Moving
     float vertical, horizontal;
     public float MovingSpeed = 1;
+    [SerializeField]private Transform ParentGo;
+
+    
 
     // Animator
     Animator animator;
@@ -27,6 +32,11 @@ public class MainPlayer : MonoBehaviour
 
         // Rigidbody
         rb = GetComponent<Rigidbody2D>();
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> cb3efa79df9836acb2245610c26e1efe7545a44d
     }
 
     // Update is called once per frame
@@ -87,5 +97,16 @@ public class MainPlayer : MonoBehaviour
         else
             animator.SetBool("IsMoving", true);
 
+    }
+
+    public string JiaoFu()
+    {
+        string childname="";
+        foreach (Transform t in ParentGo)
+        {
+            childname = t.name;
+            GameObject.Destroy(t.gameObject);
+        }
+        return childname;
     }
 }
