@@ -468,7 +468,7 @@
 "Assets/Script/MeunUI/MenuOS/CombineMeunOS.cs"
 "Assets/Script/MeunUI/MenuOS/FoodListOS.cs"
 "Assets/Script/MeunUI/MenuOS/FoodMeunOS.cs"
-"Assets/Script/MeunUI/Progressbar.cs"
+"Assets/Script/MeunUI/ProgressBar.cs"
 "Assets/Script/OptionSelection/OptionParent.cs"
 "Assets/Script/OptionSelection/StartSceneOption.cs"
 "Assets/Script/PlayerScript/MainPlayer.cs"

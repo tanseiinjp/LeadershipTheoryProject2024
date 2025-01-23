@@ -2,12 +2,15 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
+
 public class MeunTemplateUI : MonoBehaviour
 {
     [SerializeField] private Text foodName_M;
     [SerializeField] private Transform foodListParent;
     [SerializeField] private Image iconUITemp;
     [SerializeField] private Image foodImage;
+
+
 
     private void Start()
     {
@@ -24,5 +27,6 @@ public class MeunTemplateUI : MonoBehaviour
             newIcon.sprite = fmOS.sprite;
             newIcon.gameObject.SetActive(true);
         }
+
     }
 }

@@ -58,13 +58,14 @@ public class OrderManager : MonoBehaviour
              OrderFinished(mp.JiaoFu());
         }
     }
-    public void OrderDelByProg(string meunFoodName)
-    {
-        if (orderCount != 0)
-        {
-            OrderFinished(meunFoodName);
-        }
-    }
+    //public void OrderDelByProg(string meunFoodName)
+    //{
+    //    if (orderCount != 0)
+    //    {
+    //        OrderFinished(meunFoodName);
+    //    }
+    //}
+
     private void OrderANewMeun()//下单
     {
         if (orderCount >= orderMaxCount)
@@ -75,8 +76,8 @@ public class OrderManager : MonoBehaviour
         orderCount++;
         int index = UnityEngine.Random.Range(0, meunFoodList.combineMeunList.Count);
         combineMeunOsList.Add(meunFoodList.combineMeunList[index]);
-        OnMeunorderSpawend?.Invoke(this, EventArgs.Empty);
-    }
+        OnMeunorderSpawend?.Invoke(this, EventArgs.Empty);        
+    }       
 
     public void OrderFinished(string meunFoodName)//完成订单
     {
