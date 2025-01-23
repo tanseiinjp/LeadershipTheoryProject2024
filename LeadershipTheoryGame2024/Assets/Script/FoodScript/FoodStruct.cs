@@ -1,11 +1,9 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-<<<<<<< HEAD
-namespace Gamecore
-=======
+
 namespace GameCore
->>>>>>> cb3efa79df9836acb2245610c26e1efe7545a44d
+
 {
     public struct FoodStruct
     {

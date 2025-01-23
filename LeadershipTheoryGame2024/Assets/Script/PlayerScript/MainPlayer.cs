@@ -32,11 +32,7 @@ public class MainPlayer : MonoBehaviour
 
         // Rigidbody
         rb = GetComponent<Rigidbody2D>();
-<<<<<<< HEAD
-=======
 
-
->>>>>>> cb3efa79df9836acb2245610c26e1efe7545a44d
     }
 
     // Update is called once per frame

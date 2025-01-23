@@ -1,9 +1,7 @@
 using UnityEngine;
-<<<<<<< HEAD
-using Gamecore;
-=======
+
 using GameCore;
->>>>>>> cb3efa79df9836acb2245610c26e1efe7545a44d
+
 
 public class FoodData : MonoBehaviour
 {

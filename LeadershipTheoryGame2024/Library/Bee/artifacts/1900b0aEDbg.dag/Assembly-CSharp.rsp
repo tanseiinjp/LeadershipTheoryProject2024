@@ -464,13 +464,15 @@
 "Assets/Script/FoodScript/MeunUI.cs"
 "Assets/Script/Manager/AudioManager/AudioManager.cs"
 "Assets/Script/Manager/GameManagerScript/GameManager.cs"
+"Assets/Script/Manager/ManagerScript.cs"
 "Assets/Script/Manager/OrderManager/OrderManager.cs"
 "Assets/Script/MeunUI/MenuOS/CombineMeunOS.cs"
 "Assets/Script/MeunUI/MenuOS/FoodListOS.cs"
 "Assets/Script/MeunUI/MenuOS/FoodMeunOS.cs"
 "Assets/Script/MeunUI/ProgressBar.cs"
+"Assets/Script/OptionSelection/GameOption/GameOption.cs"
 "Assets/Script/OptionSelection/OptionParent.cs"
-"Assets/Script/OptionSelection/StartSceneOption.cs"
+"Assets/Script/OptionSelection/TitleOption/StartSceneOption.cs"
 "Assets/Script/PlayerScript/MainPlayer.cs"
 -langversion:9.0
 /deterministic
