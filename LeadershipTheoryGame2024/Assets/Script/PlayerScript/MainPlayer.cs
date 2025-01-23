@@ -6,6 +6,10 @@ using UnityEngine.UI;
 
 public class MainPlayer : MonoBehaviour
 {
+    // Option
+    [SerializeField]
+    GameObject option;
+
     // Moving
     float vertical, horizontal;
     public float MovingSpeed = 1;
@@ -22,18 +26,24 @@ public class MainPlayer : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        GameManager.instance.SetIsGame(true);
         // Animator
         animator = GetComponent<Animator>();
 
         // Rigidbody
         rb = GetComponent<Rigidbody2D>();
+<<<<<<< HEAD
+=======
 
 
+>>>>>>> cb3efa79df9836acb2245610c26e1efe7545a44d
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (!GameManager.instance.GetIsGame()) return;
+        CheckMenu();
         Movement();
         UpdateAnimator();
 
@@ -43,6 +53,18 @@ public class MainPlayer : MonoBehaviour
     private void FixedUpdate()
     {
         
+    }
+
+
+
+    // 他のキーのチェック
+    void CheckMenu()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            GameManager.instance.SetIsGame(false);
+            option.SetActive(true);
+        }
     }
 
 
